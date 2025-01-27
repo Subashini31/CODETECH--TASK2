@@ -91,7 +91,10 @@ Follow the steps below to run the project on your local machine:
 ### 1. Clone the Repository
 Clone this GitHub repository to your local machine:
 ```bash
-git clone <repository-url>
+git clone <repository-url> 
+
+cd <project-folder>
+pip install -r requirements.txt
 
 ### 2.Install Dependencies
 Navigate to the project folder and install the required dependencies:
