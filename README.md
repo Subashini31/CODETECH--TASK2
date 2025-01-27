@@ -92,3 +92,22 @@ Follow the steps below to run the project on your local machine:
 Clone this GitHub repository to your local machine:
 ```bash
 git clone <repository-url>
+
+### 2.Install Dependencies
+Navigate to the project folder and install the required dependencies:
+```bash
+cd <project-folder>
+pip install -r requirements.txt
+
+### 3. Run the Flask Application
+Run the Flask app:
+```bash
+python app.py
+
+This will start a local web server. Open your web browser and go to http://127.0.0.1:5000 to see the app in action.
+
+### 4. Interact with the Model
+Once the app is running, you can input the health parameters into the form and submit it to receive predictions.
+
+### Conclusion
+This project demonstrates how to build a machine learning model for heart disease prediction and deploy it using Flask. The Random Forest model provides a solid foundation for making predictions based on user inputs. By deploying the model as a web application, it is made accessible to anyone who wants to check their risk for heart disease based on the given parameters.
